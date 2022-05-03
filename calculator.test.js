@@ -1,10 +1,11 @@
 const calculator = require("./calculator.js");
 
-describe("calculator adds", () => {
+describe("calculator adds testing group", () => {
   let ss;
   beforeEach(() => {
     ss = new calculator();
   });
+
   test("0 and positive number", () => {
     expect(ss.add(0, 5)).toBe(5);
   });
@@ -16,7 +17,7 @@ describe("calculator adds", () => {
   });
 });
 
-describe("calculator subtracts ", () => {
+describe("calculator subtracts testing group", () => {
   let ss;
   beforeEach(() => {
     ss = new calculator();
@@ -32,7 +33,7 @@ describe("calculator subtracts ", () => {
   });
 });
 
-describe("calculator multiplies ", () => {
+describe("calculator multiplies testing  group", () => {
   let ss;
   beforeEach(() => {
     ss = new calculator();
@@ -48,7 +49,7 @@ describe("calculator multiplies ", () => {
   });
 });
 
-describe("calculator devides ", () => {
+describe("calculator devides testing group", () => {
   let ss;
   beforeEach(() => {
     ss = new calculator();
@@ -62,7 +63,7 @@ describe("calculator devides ", () => {
   test("negative by positive numbers", () => {
     expect(ss.devide(-6, 3)).toBe(-2);
   });
-  test("a number by 0 and returns Infinity", () => {
+  test("a number divided by 0 and returns Infinity", () => {
     expect(ss.devide(4, 0)).toBe(Infinity);
   });
 });
