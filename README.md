@@ -6,10 +6,6 @@
 
 - Technologies used: Jest
 
-## Live Demo (if available)
-Demo |
-:--------:|
-
 ## Author
 
 👤 **Sebastian Solis**
